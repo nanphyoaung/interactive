@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(216, 12%, 8%) ;
+}
+.container{
+    max-width: 430px;
+    padding: 40px 30px;
+    width: 100%;
+    background-color: hsl(213, 19%, 18%) ;
+    border-radius: 25px;
+}
+.container .how .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color:rgb(65, 63, 63);
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+
+ .how h1{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+ }
+ .how p{
+    color:hsl(217, 12%, 63%) ;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+ }
+ .how .circle{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+ }
+ .how .circle{
+    list-style: none;
+ }
+.how .circle li .btn{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  hsl(217, 12%, 63%) ;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background-color: hsl(225, 3%, 27%) ;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.how .circle li .btn:hover{
+    background-color:  hsl(25, 97%, 53%);
+    color: rgb(32, 28, 28);
+}
+.how .circle li .btn:focus{
+    background-color:hsl(217, 12%, 63%);
+    color: black;
+}
+
+.how button{
+    width: 100%;
+    padding: 14px 0;
+    background-color:hsl(25, 97%, 53%) ;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.how button:hover{
+    background-color:white ;
+}
+
+.container .thank-group{
+   text-align: center;
+}
+.thank-group .you{
+    width: 60%;
+    margin: 27px auto;
+    padding: 7px 0;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    background-color:hsl(225, 3%, 27%) ;
+}
+.thank-group .you span{
+    margin-right: 4px;
+}
+.thank-group h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.thank-group p{
+    color: hsl(217, 12%, 63%);
+    font-size: 18px ;
+    line-height: 25px;
+}
+.hidden{
+    display: none;
+}
+.thank-group .rate{
+    width: 100%;
+    padding: 14px 0;
+    background-color:hsl(25, 97%, 53%) ;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+}
